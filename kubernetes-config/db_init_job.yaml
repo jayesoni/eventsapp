@@ -9,7 +9,7 @@ spec:
       restartPolicy: Never
       containers:
         - name: db-init-job
-          image: your-dockerhub-id/events-job:v1.0
+          image: jayeshsoni/events-job:v1.0
           imagePullPolicy: Always
           env:
             - name: DBHOST
